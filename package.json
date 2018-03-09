@@ -1,6 +1,6 @@
 {
   "name": "serverless-s3-local",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Serverless s3 local plugin",
   "main": "index.js",
   "scripts": {
@@ -23,13 +23,20 @@
   "homepage": "https://github.com/ar90n/serverless-s3-local#readme",
   "dependencies": {
     "aws-sdk": "^2.7.0",
-    "bluebird": "^3.4.6",
-    "s3rver": "^1.0.2"
+    "fs-extra": "^4.0.0",
+    "s3rver": "^2.2.0",
+    "serverless-offline": "^3.18.0",
+    "shelljs": "^0.8.1"
   },
   "eslintConfig": {
     "extends": "airbnb",
     "plugins": [
       "import"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0"
   }
 }
